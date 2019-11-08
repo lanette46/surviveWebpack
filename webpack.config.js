@@ -14,8 +14,8 @@ module.exports = {
     // unlike default `localhost`.
     host: process.env.HOST, // Defaults to `localhost`
     port: process.env.PORT, // Defaults to 8080
-    open: true, // Open the page in browser
-    overlay: true,
+    // open: true, // Open the page in browser
+    overlay: false,
 
     // Don't refresh if hot loading fails. Good while
     // implementing the client interface.
